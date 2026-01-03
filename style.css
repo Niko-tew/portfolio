@@ -17,6 +17,7 @@ canvas {
 
 html, body {
     overflow-x: hidden;
+    background-color: #000000;
 }
 
 main {
