@@ -1,0 +1,61 @@
+:root {
+    --dark-bg: rgba(20, 20, 30, 0.9);
+    --spacing: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        grid-column: 1 / -1;
+    }
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    color: white;
+    z-index: 10;
+    gap: 1rem;
+}
+
+section {
+    grid-column: 2 / 7;
+    padding: 1rem;
+    background: var(--dark-bg) ;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+}
+
+section.about {
+    background: rgba(20, 20, 30, 0.9);
+    color: white;
+}
+
+/* Projects Section */
+section.projects {
+    background: rgba(255, 255, 255, 0.3);
+    color: #517151;
+    border: 1px solid #00ff00;
+}
+
+/* Contact Section */
+section.contact {
+    background: linear-gradient(135deg, #1e1e2f, #44445e);
+    color: white;
+    text-align: center;
+}

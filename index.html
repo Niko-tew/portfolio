@@ -3,15 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mein Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>My Portfolio</h1>
-<div id="scene-container"></div>
 
-<!-- Three.js CDN -->
-<script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
-<script src="js/main.js"></script>
+<body>
+    <canvas id="bg"></canvas>
+
+    <main>
+        <header style="grid-column: 1 / 10;">
+            <h1>Niko</h1>
+            <p>Welcome</p>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt
+                consectetur, nisl nunc aliquet nisl, nec aliquet nunc nisl nec nisl. Nulla facilisi. Integer
+                non lorem eu leo tempor pretium.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet justo sed ligula
+                fermentum varius. Sed ac sem vel lorem pretium vulputate.
+            </p>
+        </section>
+
+        <section class="projects" style="grid-column: 7 / 10;">
+            <h2>Projects</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ligula nec arcu
+                scelerisque tincidunt. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci
+                luctus et ultrices posuere cubilia curae.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum diam ut leo
+                tincidunt, non efficitur metus consectetur. Nullam eget neque vel sapien dignissim
+                bibendum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, libero at feugiat
+                posuere, lorem ipsum hendrerit lacus, a dapibus lorem metus ac dolor.
+            </p>
+        </section>
+
+        <section class="about">
+            <h2>Experience</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis
+                iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+            </p>
+            <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                aliquam quaerat voluptatem.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at semper justo.
+                Phasellus ac justo vitae lorem sodales ultricies. Fusce tincidunt, sapien eu lacinia
+                scelerisque, velit nunc consequat libero, sed laoreet elit ex sit amet urna.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a mi nec odio
+                tincidunt tincidunt a sit amet nulla. Sed at augue sed ipsum mollis aliquam.
+            </p>
+        </section>
+
+        <section class="about">
+            <h2>Extra Content</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nisi vitae nisl
+                finibus aliquam. Duis scelerisque elit id nisl pretium, at efficitur ex ullamcorper.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget ligula nec nunc
+                fermentum viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien sed nisi
+                efficitur efficitur. Cras porta tortor sit amet risus lacinia, ut convallis purus
+                tincidunt.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Integer
+                blandit arcu nec mi pretium, nec dictum lorem luctus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel nisi ac arcu
+                facilisis fermentum non in orci. Ut bibendum, mi at convallis tincidunt, purus turpis
+                pretium dolor, vitae vulputate ex sapien vel leo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in velit vitae neque
+                suscipit tempus non vel dolor.
+            </p>
+        </section>
+    </main>
+
+
+
+    <!-- Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
